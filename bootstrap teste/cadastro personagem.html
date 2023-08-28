@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro personagem.css">
+    <title>CADASTRO USUÁRIO</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="img_cadastro/personagem 3.png" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre seu Personagem</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Login</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome Completo</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome completo" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Nome Artístico</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu nome artístico" required>
+                    </div>
+                    
+
+                    <div class="input-box">
+                        <label for="number">Idade</label>
+                        <input id="number" type="tel" name="number" placeholder="Digite sua idade" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Qual a origem do seu Personagem?</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Filme, Série, Anime, etc.." required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Instagram</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite o seu usuário do Instagram" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Observações</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite alguma observação" required>
+                    </div>
+                    <div class="title-box">
+                        <h5>Anexe uma imagem do seu personagem abaixo</h5>
+                    </div>
+                    <br>
+                    <br>
+                    <label class="picture" for="picture__input" tabIndex="0">
+                        <span class="picture__image"></span>
+                      </label>
+                      
+                      <input type="file" name="picture__input" id="picture__input">
+
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Sobre o Regulamento:</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Declaro que li e concordo com o regulamento do Concurso Cosplay GEEK FEST
+                                2023.</label>
+                        </div>
+                       
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Increver-se agora</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="arquivo.js"></script>
+</body>
+
+</html>
